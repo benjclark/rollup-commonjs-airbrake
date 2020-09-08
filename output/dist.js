@@ -17285,8 +17285,8 @@
 
   const airbrake = () => {
       const notifier = new Notifier({
-          projectId: 131537,
-          projectKey: '8e58e2dfb7e36260114f620c9adcadcb',
+          projectId: 123131,
+          projectKey: 'somekey',
           environment: getEnvironment()
       });
 

@@ -98,7 +98,7 @@ const shouldFilterNotice = notice => {
 
 const airbrake = () => {
     const notifier = new Notifier({
-        projectId: 00000,
+        projectId: 123131,
         projectKey: 'somekey',
         environment: getEnvironment()
     });
