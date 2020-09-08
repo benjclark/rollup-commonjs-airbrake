@@ -1,0 +1,29 @@
+{
+  "name": "rollup-commonjs-airbrake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjclark/rollup-commonjs-airbrake.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjclark/rollup-commonjs-airbrake/issues"
+  },
+  "homepage": "https://github.com/benjclark/rollup-commonjs-airbrake#readme",
+  "dependencies": {
+    "@airbrake/browser": "^1.4.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "gulp": "^4.0.2",
+    "rollup": "^2.26.11",
+    "rollup-plugin-node-builtins": "^2.1.2"
+  }
+}
